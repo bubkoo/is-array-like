@@ -53,5 +53,3 @@ function testArguments() {
   // => true
 }
 ```
-
-## Related
