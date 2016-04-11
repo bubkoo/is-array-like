@@ -1,12 +1,11 @@
 'use strict';
 
-
-var isArray = Array.isArray || function (val) {
-        return Object.prototype.toString.call(val) === 'Object array';
-    };
-
 function isObject(val) {
     return typeof val === 'object';
+}
+
+function isArray(val) {
+    return Object.prototype.toString.call(val) === '[object Array]';
 }
 
 function isFunction(val) {
