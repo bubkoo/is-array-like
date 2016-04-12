@@ -1,6 +1,6 @@
 {
   "name": "is-array-like",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if the given value is an Array or an Array like object.",
   "main": "index.js",
   "scripts": {
@@ -39,5 +39,8 @@
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "is-window": "^1.0.0"
   }
 }
