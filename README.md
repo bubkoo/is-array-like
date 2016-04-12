@@ -21,35 +21,22 @@ $ npm install --save is-array-like
 ```js
 var isArrayLike = require('is-array-like');
 
-isArrayLike();
-// => false
-
-isArrayLike(1);
-// => false
-
-isArrayLike('1');
-// => false
-
-isArrayLike(true);
-// => false
-
-isArrayLike(null);
-// => false
-
-isArrayLike({});
-// => false
-
-isArrayLike(function () {});
-// => false
-
-isArrayLike([]);
-// => true
-
-isArrayLike([1, 2, 3]);
-// => true
+isArrayLike();               // => false
+isArrayLike(1);              // => false
+isArrayLike('1');            // => false
+isArrayLike(true);           // => false
+isArrayLike(null);           // => false
+isArrayLike({});             // => false
+isArrayLike(function () {}); // => false
+isArrayLike([]);             // => true
+isArrayLike([1, 2, 3]);      // => true
 
 function testArguments() {
   isArrayLike(arguments);
   // => true
 }
 ```
+
+## Related
+
+- [is-window](https://github.com/bubkoo/is-window) - Check if the given value is a window object.

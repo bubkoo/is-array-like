@@ -1,5 +1,7 @@
 'use strict';
 
+var isWindow = require('is-window');
+
 function isObject(val) {
     return typeof val === 'object';
 }
@@ -10,10 +12,6 @@ function isArray(val) {
 
 function isFunction(val) {
     return typeof val === 'function';
-}
-
-function isWindow(obj) {
-    return obj != null && obj === obj.window;
 }
 
 
