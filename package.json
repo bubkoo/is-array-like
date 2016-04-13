@@ -1,7 +1,7 @@
 {
   "name": "is-array-like",
   "version": "1.0.1",
-  "description": "Check if the given value is an Array or an Array like object.",
+  "description": "Checks if the given value is an array or an array-like object.",
   "main": "index.js",
   "scripts": {
     "lint": "jshint index.js",

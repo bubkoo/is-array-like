@@ -1,6 +1,6 @@
 # is-array-like
 
-> Check if the given value is an Array or an Array like object. 
+> Checks if the given value is an array or an array-like object.
 
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/is-array-like/blob/master/LICENSE)
@@ -39,4 +39,7 @@ function testArguments() {
 
 ## Related
 
-- [is-window](https://github.com/bubkoo/is-window) - Check if the given value is a window object.
+- [is-nil](https://github.com/bubkoo/is-nil) - Checks if the given value is null or undefined.
+- [is-null](https://github.com/bubkoo/is-null) - Checks if the given value is null.
+- [is-length](https://github.com/bubkoo/is-length) - Checks if the given value is a valid array-like length.
+- [is-window](https://github.com/bubkoo/is-window) - Checks if the given value is a window object.
