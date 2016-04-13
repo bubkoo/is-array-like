@@ -1,41 +1,32 @@
 'use strict';
 
-var isWindow = require('is-window');
-
-function isObject(val) {
-    return typeof val === 'object';
-}
-
-function isArray(val) {
-    return Object.prototype.toString.call(val) === '[object Array]';
-}
-
-function isFunction(val) {
-    return typeof val === 'function';
-}
+var isArray    = require('is-array');
+var isWindow   = require('is-window');
+var isObject   = require('is-object');
+var isFunction = require('is-function');
 
 
 module.exports = function (obj) {
 
-    if (!obj) {
-        return false;
-    }
+  if (!obj) {
+    return false;
+  }
 
-    if (isArray(obj)) {
-        return true;
-    }
+  if (isArray(obj)) {
+    return true;
+  }
 
-    if (isFunction(obj) || isWindow(obj)) {
-        return false;
-    }
+  if (isFunction(obj) || isWindow(obj)) {
+    return false;
+  }
 
 
-    var length = isObject(obj) && 'length' in obj && obj.length;
+  var length = isObject(obj) && 'length' in obj && obj.length;
 
-    if (obj.nodeType === 1 && length) {
-        return true;
-    }
+  if (obj.nodeType === 1 && length) {
+    return true;
+  }
 
-    return length === 0 ||
-        typeof length === 'number' && length > 0 && ( length - 1 ) in obj;
+  return length === 0 ||
+    typeof length === 'number' && length > 0 && ( length - 1 ) in obj;
 };
