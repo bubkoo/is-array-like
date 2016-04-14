@@ -20,7 +20,6 @@ $ npm install --save is-array-like
 
 > For more use-cases see the [tests](https://github.com/bubkoo/is-array-like/blob/master/test/spec/index.js)
 
-
 ```js
 var isArrayLike = require('is-array-like');
 
@@ -50,3 +49,10 @@ function testArguments() {
 - [drop-left](https://github.com/bubkoo/drop-left) - Creates a slice of array with n elements dropped from the beginning.
 - [drop-right](https://github.com/bubkoo/drop-right) - Creates a slice of array with n elements dropped from the end.
 - [shuffle-arr](https://github.com/bubkoo/shuffle-arr) - Randomize the order of the elements in an array or array-like object). 
+
+
+## Contributing
+
+Pull requests and stars are highly welcome.
+
+For bugs and feature requests, please [create an issue](https://github.com/bubkoo/is-array-like/issues/new).
