@@ -2,7 +2,6 @@
 
 var isArray    = require('is-array');
 var isWindow   = require('is-window');
-var isObject   = require('is-object');
 var isFunction = require('is-function');
 
 
@@ -20,8 +19,9 @@ module.exports = function (obj) {
     return false;
   }
 
+  obj = Object(obj);
 
-  var length = isObject(obj) && 'length' in obj && obj.length;
+  var length = 'length' in obj && obj.length;
 
   if (obj.nodeType === 1 && length) {
     return true;

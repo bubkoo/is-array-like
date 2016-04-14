@@ -12,7 +12,9 @@ describe('is-array-like', function () {
 
     expect(isArrayLike(1)).to.be.false;
 
-    expect(isArrayLike('1')).to.be.false;
+    expect(isArrayLike('1')).to.be.true;
+
+    expect(isArrayLike('abc')).to.be.true;
 
     expect(isArrayLike(true)).to.be.false;
 

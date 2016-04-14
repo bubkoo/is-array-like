@@ -1,6 +1,6 @@
 {
   "name": "is-array-like",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Checks if the given value is an array or array-like object.",
   "main": "index.js",
   "scripts": {
@@ -45,7 +45,6 @@
   "dependencies": {
     "is-array": "^1.0.1",
     "is-function": "^1.0.1",
-    "is-object": "^1.0.1",
     "is-window": "^1.0.1"
   }
 }
