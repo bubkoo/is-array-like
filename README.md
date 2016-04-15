@@ -44,11 +44,11 @@ function testArguments() {
 - [is-index](https://github.com/gearcase/is-index) - Checks if the given value is a valid array-like index.
 - [is-length](https://github.com/gearcase/is-length) - Checks if the given value is a valid array-like length.
 - [to-length](https://github.com/gearcase/to-length) - Converts value to an integer suitable for use as the length of an array-like object.
-- [pick-item](https://github.com/gearcase/pick-item) - Randomly sampling a item from an array.
-- [pick-items](https://github.com/gearcase/pick-items) - Randomly sampling some items from an array. 
 - [drop-left](https://github.com/gearcase/drop-left) - Creates a slice of array with n elements dropped from the beginning.
 - [drop-right](https://github.com/gearcase/drop-right) - Creates a slice of array with n elements dropped from the end.
-- [shuffle-arr](https://github.com/gearcase/shuffle-arr) - Randomize the order of the elements in an array or array-like object. 
+- [pick-item](https://github.com/mock-end/pick-item) - Randomly sampling a item from an array.
+- [pick-items](https://github.com/mock-end/pick-items) - Randomly sampling some items from an array. 
+- [shuffle-arr](https://github.com/mock-end/shuffle-arr) - Randomize the order of the elements in an array or array-like object. 
 
 
 ## Contributing
